@@ -1,0 +1,82 @@
+# Tipos de Dados em Ciência de Dados
+
+## Dados Estruturados
+
+São dados que segeum modelos pre definidos, geralmente armazenada de maneira organizada em linhas e colunas<br>
+
+### Exemplos:
+
+- Banco de dados Relacionais
+- Planilhas
+
+## Dados Semi Estruturados
+
+Possuem alguma organização porém não tão rigidos quando os estruturados<br>
+
+### Exemplos:
+
+- XML
+- Arquivos Json
+
+## Dados Não Estruturados
+
+Dados que não possuem modelo e organização algum, tornando mais complexo a ánalise e manipulção dos dados<br>
+
+### Exemplos:
+
+- Arquivos de Midia
+- Textos Livres (Qualquer texto sem formato especifico)
+
+## Fontes de Dados
+
+Diversas fontes de dados podem ser utilizadas em projetos de ciência de dados, dependendo do objetivo do estudo.
+
+## Bases Públicas
+
+Governos e outras organizações frequentemente disponibilizam conjuntos de dados para o público, como dados demográficos, econômicos e ambientais.
+
+## Banco de Dados Relacionais
+
+Sistemas de gerenciamento de banco de dados que armazenam dados em formatos estruturados, facilitando a consulta e a manipulação dos dados.
+
+## Dados Abertos
+
+Dados que estão disponíveis para qualquer pessoa usar, reutilizar e redistribuir sem restrições.
+
+## Redes Sociais
+
+Fonte rica de dados não estruturados e semiestruturados, incluindo textos, imagens e informações interativas de usuários.
+
+# APIs e Web Scraping
+
+APIs e Web Scraping servem para acessar dados de fontes online cada um tem suas ferramentas e praticas recomendadas
+
+## APIs
+
+APIs (Interface de Programação de Aplicações) permitem que programas de software interajam com outros serviços de maneira programática.<br>
+
+## Exemplo Prático: Consumindo uma API(arquivo ao lado)
+
+# Ferramenta de Coleta de Dados:
+
+Na ciência de dados, coletar dados é o primeiro passo crucial antes de qualquer análise. Python oferece várias bibliotecas poderosas para facilitar a coleta e manipulação de dados da web. Duas das ferramentas mais populares e úteis para scraping de dados são `requests` & `BeautifulSoup`
+
+## `Requests`: Simplicidade na Captura de Dados da Web
+
+`requests` é uma biblioteca Python que permite enviar solicitações HTTP de forma intuitiva. É conhecida por sua simplicidade e facilidade de uso, permitindo que desenvolvedores capturem conteúdo de páginas web com poucas linhas de código.
+
+## Características Principais
+
+- <b>Simples de usar:</b> Você pode realizar solicitações GET, POST e outras operações HTTP com uma sintaxe simples
+- <b>Flexívle: </b>Permite personalizar cabeçalhos HTTP, enviar dados de formulários, lidar com cookies, e muito mais.
+- <b>Eficiente: </b>Gerencia bem a persistência de sessões, permitindo reutilizar conexões e economizar recursos.
+
+## Exemplo Básico do uso de `resquests`
+
+Arquivos:
+
+- consumindo_api.py
+- cotaca_dolar.py
+- api_site_noticias.py
+- api_site_livros.py
+- api_spacex.py
