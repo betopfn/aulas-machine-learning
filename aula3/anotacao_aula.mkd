@@ -1,0 +1,37 @@
+# Aprendizagem Supervisionada e Métodos Paramétricos
+
+## Objetivos da Aula
+* Compreender os conceitos básicos ea importância do aprendizado supervisionado
+* Explorar metódos paramétricos como a regressão linear e logítica, além de introduzir a Análise Discriminante Linear(LDA)
+* Aplicar esses metódos em dados reais para ver como eles funcionam na prática
+
+## O que são Metódos Paramétricos?
+Métodos paramétricos são um tipo de modelo de machine learning que faz suposições claras sobre a forma dos dados e a função que mapeia as entradas às saídas. Esses modelos são caracterizados pelo número finito de parâmetros que aprendem dos dados, o que simplifica o processo de treinamento mas também impõe limitações em termos da complexidade dos problemas que podem modelar.
+
+## Exemplos de metódos paramétricos
+* <b>Regressão linear</b>: Modela a relação entre uma variável dependente e uma ou mais variáveis independentes usando uma linha reta
+* <b>Regresasão Logística</b>: Usada para previsão de variáveis categóricas, baseia-se na função logística para modelar a probabilidade de classes
+* <b>Análise Discriminante Linear(LDA)</b>: Utilizada tanto para classificação quanto para redução de dimensionalidade, buscando a melhor separação entre as classes.
+
+## Regressão Linear: Fundamentos Matemáticos
+
+A regressão linear é uma técnica estatística que tenta descrever  a relação entre uma variável dependente e uma ou mais variáveis independentes utilizando uma linha reta.
+
+### Formulação Matemática
+
+A equação da regressaõ linear é:
+
+![Formula da regressao](formula_regressao_linear.png)
+
+* (y) é a variável dependente (o que queremos prever),
+* (x0,x1,xn)  são as variáveis independentes,
+* (β0,β1,βn)  são os coeficientes a serem estimados, 
+* (epsilon)  é o termo de erro, representando a variação não explicada pela linha reta.
+
+### Como o Modello Calcula os Coeficientes
+Os coeficientes são calculados de maneira a minimizar a soma dos quadrados dos resíduos, que é a diferença entre os valores observados e os valores previstos pela linha reta.
+
+`regressao_linear.py`
+
+![Minimizaçao dos residuos](![alt text](image.png)) 
+![MInimização dos residuos](![alt text](image-1.png))
